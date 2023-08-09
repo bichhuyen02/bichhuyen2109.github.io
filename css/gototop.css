@@ -1,0 +1,36 @@
+.up {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 999;
+    height: 45px;
+    width: 45px;
+  }
+  
+  .up a{
+    display: block;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 100%;
+  }
+  
+  .up a p {
+    height: 120%;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 600;
+    color: #333;
+    margin: 9px;
+  }
+
+  .up a:hover {
+    border: 2px solid #c688eb;
+    background: #c688eb;
+    opacity: 1;
+  }
+
+  .up a:hover p{
+    color: white;
+  }
+

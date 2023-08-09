@@ -1,0 +1,254 @@
+[
+    {
+        "id": 1,
+        "name":"Dương Hữu Thành",
+        "degree": "Thạc Sĩ",
+        "position": "Giảng Viên",
+        "majors": "Công Nghệ Thông Tin",
+        "email": "dhthanh@ou.edu.vn",
+        "img": "/image/DHThanh.png"
+    },
+    {
+        "id": 2,
+        "name":"Lý Thị Minh Hiền",
+        "degree": "Tiến Sĩ",
+        "position": "Giảng Viên",
+        "majors": "Công Nghệ Sinh Học",
+        "email": "ltmhien@ou.edu.vn",
+        "img": "/image/LTMHien.png"
+    },
+    {
+        "id": 3,
+        "name":"Lê Thị Huệ Linh",
+        "degree": "Nghiên Cứu Sinh",
+        "position": "Giảng Viên",
+        "majors": "Quản Trị Kinh Doanh",
+        "email": "lthlinh@ou.edu.vn",
+        "img": "/image/LTHLinh.webp"
+    },
+    {
+        "id": 4,
+        "name":"Võ Minh Long",
+        "degree": "Tiến Sĩ",
+        "position": "Giảng Viên",
+        "majors": "Tài Chính Ngân Hàng",
+        "email": "vmlong@ou.edu.vn",
+        "img": "/image/VMLong.jpg"
+    },
+    {
+        "id": 5,
+        "name":"Nguyễn Thị Xuân Mai",
+        "degree": "Thạc Sĩ",
+        "position": "Giảng Viên",
+        "majors": "Ngoại Ngữ",
+        "email": "ntxmai@ou.edu.vn",
+        "img": "/image/NTXMai.png"
+    },
+    {
+        "id": 6,
+        "name":"Đỗ Hồng Quân",
+        "degree": "Thạc Sĩ",
+        "position": "Giảng Viên",
+        "majors": "XHH-CTXH-DNA",
+        "email": "dhquan@ou.edu.vn",
+        "img": "/image/DHQuan.jpg"
+    },
+    {
+        "id": 7,
+        "name":"Nguyễn Thị Phương Trang",
+        "degree": "Nghiên Cứu Sinh",
+        "position": "Giảng Viên",
+        "majors": "Công Nghệ Thông Tin",
+        "email": "ntptrang@ou.edu.vn",
+        "img": "/image/NTPTrang.jpg"
+    },
+    {
+        "id": 8,
+        "name":"Nguyễn Tú",
+        "degree": "Tiến Sĩ",
+        "position": "Giảng Viên",
+        "majors": "Luật",
+        "email": "ntu@ou.edu.vn",
+        "img": "/image/NTu.png"
+    },
+    {
+        "id": 9,
+        "name":"Hồ Quang Khải",
+        "degree": "Thạc Sĩ",
+        "position": "Giảng Viên",
+        "majors": "Công Nghệ Thông Tin",
+        "email": "hqkhai@ou.edu.vn",
+        "img": "/image/HQKhai.jpg"
+    },
+    {
+        "id": 10,
+        "name":"Phan Trần Minh Khuê",
+        "degree": "Tiến Sĩ",
+        "position": "Giảng Viên",
+        "majors": "Công Nghệ Thông Tin",
+        "email": "ptmkhue@ou.edu.vn",
+        "img": "/image/PTMKhue.jpg"
+    },
+    {
+        "id": 11,
+        "name":"Lê Thị Hồng Nhung",
+        "degree": "Tiến Sĩ",
+        "position": "Giảng Viên",
+        "majors": "Luật",
+        "email": "lthnhung@ou.edu.vn",
+        "img": "/image/LTHNhung.png"
+    },
+    {
+        "id": 12,
+        "name":"Trần Anh Thục Đoan",
+        "degree": "Thạc Sĩ",
+        "position": "Giảng Viên",
+        "majors": "Luật",
+        "email": "tatdoan@ou.edu.vn",
+        "img": "/image/TATDoan.jpg"
+    },
+    {
+        "id": 13,
+        "name":"Phan Đăng Hiếu Thuận",
+        "degree": "Thạc Sĩ",
+        "position": "Giảng Viên",
+        "majors": "Luật",
+        "email": "pdhthuan@ou.edu.vn",
+        "img": "/image/PDHThuan.jpg"
+    },
+    {
+        "id": 14,
+        "name":"Nguyễn Ngọc Bảo Châu",
+        "degree": "Tiến Sĩ",
+        "position": "Giảng Viên",
+        "majors": "Công Nghệ Sinh Học",
+        "email": "nnbchau@ou.edu.vn",
+        "img": "/image/NNBChau.png"
+    },
+    {
+        "id": 15,
+        "name":"Tạ Đăng Khoa",
+        "degree": "Thạc Sĩ",
+        "position": "Giảng Viên",
+        "majors": "Công Nghệ Sinh Học",
+        "email": "tdkhoa@ou.edu.vn",
+        "img": "/image/TDKhoa.png"
+    },
+    {
+        "id": 16,
+        "name":"Nguyễn Thị Lệ Thủy",
+        "degree": "Tiến Sĩ",
+        "position": "Giảng Viên",
+        "majors": "Công Nghệ Sinh Học",
+        "email": "ntlthuy@ou.edu.vn",
+        "img": "/image/NTLThuy.png"
+    },
+    {
+        "id": 17,
+        "name":"Nguyễn Thị Ngọc Diệp",
+        "degree": "Tiến Sĩ",
+        "position": "Giảng Viên",
+        "majors": "Quản Trị Kinh Doanh",
+        "email": "ntndiep@ou.edu.vn",
+        "img": "/image/NTNDiep.webp"
+    },
+    {
+        "id": 18,
+        "name":"Vũ Thanh Hiếu",
+        "degree": "Thạc Sĩ",
+        "position": "Giảng Viên",
+        "majors": "Quản Trị Kinh Doanh",
+        "email": "vthieu@ou.edu.vn",
+        "img": "/image/VTHieu.webp"
+    },
+    {
+        "id": 19,
+        "name":"Trần Tuấn Anh",
+        "degree": "Thạc Sĩ",
+        "position": "Giảng Viên",
+        "majors": "Quản Trị Kinh Doanh",
+        "email": "ttanh@ou.edu.vn",
+        "img": "/image/TTAnh.webp"
+    },
+    {
+        "id": 20,
+        "name":"Phan Thị Minh Huệ",
+        "degree": "Nghiên Cứu Sinh",
+        "position": "Giảng Viên",
+        "majors": "Tài Chính Ngân Hàng",
+        "email": "ptmhue@ou.edu.vn",
+        "img": "/image/PTMHue.jpg"
+    },
+    {
+        "id": 21,
+        "name":"Mai Mẫn Nhi",
+        "degree": "Nghiên Cứu Sinh",
+        "position": "Giảng Viên",
+        "majors": "Tài Chính Ngân Hàng",
+        "email": "mmnhi@ou.edu.vn",
+        "img": "/image/MMNhi.png"
+    },
+    {
+        "id": 22,
+        "name":"Lê Công Thiện",
+        "degree": "Thạc Sĩ",
+        "position": "Giảng Viên",
+        "majors": "Tài Chính Ngân Hàng",
+        "email": "lcthien@ou.edu.vn",
+        "img": "/image/LCThien.jpg"
+    },
+    {
+        "id": 23,
+        "name":"Nguyễn Lý Uy Hân",
+        "degree": "Tiến Sĩ",
+        "position": "Giảng Viên",
+        "majors": "Ngoại Ngữ",
+        "email": "nluhan@ou.edu.vn",
+        "img": "/image/NLUHan.jpg"
+    },
+    {
+        "id": 24,
+        "name":"Đoàn Kim Khoa",
+        "degree": "Thạc Sĩ",
+        "position": "Giảng Viên",
+        "majors": "Ngoại Ngữ",
+        "email": "dkhoa@ou.edu.vn",
+        "img": "/image/DKKhoa.jpg"
+    },
+    {
+        "id": 25,
+        "name":"Phan Thị Thu Nga",
+        "degree": "Thạc Sĩ",
+        "position": "Giảng Viên",
+        "majors": "Ngoại Ngữ",
+        "email": "pttnga@ou.edu.vn",
+        "img": "/image/PTTNga.jpg"
+    },
+    {
+        "id": 26,
+        "name":"Trần Hữu Quang",
+        "degree": "Tiến Sĩ",
+        "position": "Giảng Viên",
+        "majors": "XHH-CTXH-DNA",
+        "email": "thquangn@ou.edu.vn",
+        "img": "/image/THQuang.jpg"
+    },
+    {
+        "id": 27,
+        "name":"Nguyễn Xuân Nghĩa",
+        "degree": "Tiến Sĩ",
+        "position": "Giảng Viên",
+        "majors": "XHH-CTXH-DNA",
+        "email": "nxnghia@ou.edu.vn",
+        "img": "/image/NXNghia.jpg"
+    },
+    {
+        "id": 28,
+        "name":"Nguyễn Khánh Trung",
+        "degree": "Tiến Sĩ",
+        "position": "Giảng Viên",
+        "majors": "XHH-CTXH-DNA",
+        "email": "nktrung@ou.edu.vn",
+        "img": "/image/NKTrung.jpg"
+    }
+]

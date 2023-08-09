@@ -1,0 +1,347 @@
+@font-face {
+  font-family: myRegular;
+  src: url(../font/BonheurRoyale-Regular.ttf);
+}
+
+body {
+  margin: 0px;
+}
+
+.flex {
+  display: flex;
+}
+
+.header {
+  justify-content: center;
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+  /* align-items: center */
+}
+
+.text-decoration a {
+  text-decoration: none;
+  color: black;
+}
+
+/* menu */
+nav {
+  width: 100%;
+
+}
+
+.menu {
+  background-color: #6c7de1;
+  width: 100%;
+}
+
+.image-header {
+  width: 35%;
+}
+
+.image-header img {
+  width: 100%;
+  background-color: #6c7de1;
+}
+
+.menu-items {
+  width: 65%;
+}
+
+.menu-item {
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.menu-item>li {
+  font-size: 23px;
+  text-align: center;
+  margin-left: 5%;
+}
+
+.menu-items li a {
+  display: block;
+  padding: 5px 20px;
+  line-height: 29.5px;
+  letter-spacing: 2px;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: whitesmoke;
+}
+
+.menu-items li a:hover {
+  background-color: #92b9e3;
+}
+
+.action{
+  border-radius: 30px;
+  background-color: #ffc4a49e;
+}
+
+.action:nth-child(5){
+  background-color: transparent;
+}
+
+/* user */
+.user {
+  width: 5%;
+}
+
+.user i {
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+
+/* .header-image */
+.image {
+  background: linear-gradient(#6c7de1, whitesmoke);
+  width: 100%;
+}
+
+.img {
+  align-items: center;
+}
+
+.text-image {
+  width: 60%;
+  color: #593e67;
+  font-size: 19px;
+  font-family: myRegular;
+}
+
+.text-image h1 {
+  padding-left: 3%;
+  padding-right: 0px;
+}
+
+.text-image p {
+  text-align: right;
+}
+
+.image-item {
+  width: 40%;
+}
+
+.image-item img {
+  width: 100%;
+}
+
+/* tiêu đề */
+.title {
+  text-align: center;
+  font-size: 35px;
+  position: relative;
+  margin-bottom: 5%;
+  color: #6c7ee1;
+}
+
+.title h1 {
+  margin-bottom: auto;
+}
+
+.line i {
+  font-size: 40px;
+}
+
+.line span {
+  font-size: 40px;
+}
+
+/* reponsive */
+
+/* -------điện thoại di động ở chế độ dọc----- */
+@media (max-width: 575px) {
+
+  /* menu */
+  .image-header {
+    width: 90%;
+  }
+
+  .menu-items {
+    width: 20%;
+    position: relative;
+  }
+
+  .menu-items li a {
+    display: none;
+    padding: 5px 20px;
+    line-height: 29.5px;
+    letter-spacing: 2px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: whitesmoke;
+  }
+
+  .menu-item>li:first-child a::after {
+    display: none;
+  }
+
+  /* user */
+  .user {
+    position: relative;
+  }
+
+  .menu-item>li,
+  .user a {
+    font-size: 10px;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+
+  /* .header-image */
+  .text-image {
+    font-size: 5px;
+  }
+
+  /* tiêu đề */
+.title {
+  font-size: 12px;
+}
+
+.line i {
+  font-size: 18px;
+}
+
+.line span {
+  font-size: 20px;
+}
+}
+
+/* ------------điện thoại di động ở chế độ ngang-------- */
+@media (min-width: 576px) and (max-width: 767px) {
+
+  /* menu */
+  .image-header {
+    display: none;
+  }
+
+  .menu-items {
+    width: 100%;
+    position: relative;
+  }
+
+  .menu-item>li {
+    font-size: 10px;
+  }
+
+  .menu-items li a {
+    border-radius: 19px;
+  }
+
+  .action{
+    border-radius: 19px;
+  }
+
+  /* user */
+  .user i {
+    font-size: 15px;
+  }
+
+  /* .header-image */
+  .text-image {
+    font-size: 10px;
+  }
+
+/* tiêu đề */
+.title {
+  font-size: 18px;
+}
+
+.line i {
+  font-size: 25px;
+}
+
+.line span {
+  font-size: 25px;
+}
+}
+
+/* ------------máy tính bảng----------- */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* menu */
+  .image-header {
+    display: none;
+  }
+
+  .menu-items {
+    width: 100%;
+    position: relative;
+  }
+
+  .menu-item>li {
+    font-size: 14px;
+  }
+
+  .menu-items li a {
+    border-radius: 18px;
+  }
+
+  .action{
+    border-radius: 18px;
+  }
+
+  /* user */
+  .user i {
+    font-size: 19px;
+  }
+
+  /* .header-image */
+  .text-image {
+    font-size: 14px;
+  }
+
+/* tiêu đề */
+.title {
+  font-size: 25px;
+}
+
+.line i {
+  font-size: 30px;
+}
+
+.line span {
+  font-size: 30px;
+}
+}
+
+/* -----------máy tính để bàn------------- */
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* menu */
+  .menu-item>li {
+    font-size: 10px;
+  }
+
+  .menu-items li a {
+    border-radius: 19px;
+  }
+
+  .action{
+    border-radius: 19px;
+  }
+
+  /* user */
+  .user i {
+    font-size: 20px;
+  }
+
+  /* image */
+  .img {
+    align-items: center;
+  }
+
+  /* .header-image */
+  .text-image {
+    font-size: 15px;
+  }
+}

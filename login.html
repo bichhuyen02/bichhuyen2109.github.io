@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OU</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="/image/ou.png">
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/header.css">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        wow = new WOW(
+            {
+                boxClass: 'wow',      // default
+                animateClass: 'animate__animated', // default
+                offset: 0,          // default
+                mobile: true,       // default
+                live: true        // default
+            }
+        )
+        wow.init();
+    </script>
+    <script src="/js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="/js/login.js"></script>
+</head>
+
+<body>
+    <div class="login">
+        <form class="form-login wow animate__lightSpeedInRight animate__slow">
+            <h1>Đăng nhập</h1>
+            <div class="sect">
+                <select name="" id="">
+                    <option>Hệ chính quy</option>
+                    <option>Hệ đào tạo từ xa</option>
+                </select>
+            </div>
+            <div class="form-user">
+                <input type="text" placeholder="MSSV" required>
+            </div>
+            <div class="form-pass">
+                <input type="password"  placeholder="Mật khẩu" required>
+            </div>
+            <div class="btn">
+                <input type="submit" value="Đăng nhập" class="btn_login" id="btn_login">
+                <input type="submit" value="Hủy" class="btn_cancel" id="btn_cancel">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

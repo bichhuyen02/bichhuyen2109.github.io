@@ -1,0 +1,219 @@
+main{
+    margin: 2%;
+}
+
+/* notifi */
+.notifi{
+    width: 35%;
+}
+
+.notifi-item{
+    border: 3px solid #6c7ee1;
+}
+
+.notifi h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+.info-notifi{
+    margin: 3%;
+    border-top: 2px solid #6c7ee1;
+}
+
+.info-notifi p{
+    padding-left: 3%;
+    font-size: 17px;
+}
+
+/* news */
+.news{
+    width: 65%;
+    padding-left: 1%;
+}
+
+.news-item{
+    margin-bottom: 1%;
+}
+
+.header-new h1{
+    border: 2px solid #6c7ee1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 62%;
+    margin: 0;
+    background-color: #6c7ee1;
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: center;
+}
+
+.content-new{
+    display: none;
+    border-top: 3px solid #6c7ee1;
+    padding-left: 4%;
+    color: black;
+}
+
+.content-new h1{
+    font-size: 25px;
+}
+
+.content-new h4{
+    padding-left: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 20px;
+}
+
+.content-new p{
+    padding-left: 6%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 18px;
+}
+
+.active + .content-new{
+    display: block !important;
+}
+
+/* reponsive */
+
+/* -------điện thoại di động ở chế độ dọc----- */
+@media (max-width: 575px) {
+
+ /* notifi */
+.notifi h1{
+    font-size: 7px;
+}
+
+.notifi-item{
+    border: 1px solid #6c7ee1;
+}
+
+.info-notifi{
+    border-top: 1px solid #6c7ee1;
+}
+
+.info-notifi p{
+    font-size: 5px;
+}
+
+/* news */
+.header-new h1{
+    width: 90%;
+    font-size: 9px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.content-new{
+    border-top: 1px solid #6c7ee1;
+}
+
+.content-new h1{
+    font-size: 7px;
+}
+
+.content-new h4{
+    font-size: 6px;
+}
+
+.content-new p{
+    font-size: 5px;
+}
+}
+
+/* ------------điện thoại di động ở chế độ ngang-------- */
+@media (min-width: 576px) and (max-width: 767px) {
+
+/* notifi */
+.notifi h1{
+    font-size: 13px;
+}
+
+.notifi-item{
+    border: 2px solid #6c7ee1;
+}
+
+.info-notifi{
+    border-top: 2px solid #6c7ee1;
+}
+
+.info-notifi p{
+    font-size: 10px;
+}
+
+/* news */
+.header-new h1{
+    width: 90%;
+    font-size: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.content-new{
+    border-top: 2px solid #6c7ee1;
+}
+
+.content-new h1{
+    font-size: 13px;
+}
+
+.content-new h4{
+    font-size: 10px;
+}
+
+.content-new p{
+    font-size: 9px;
+}  
+}
+
+/* ------------máy tính bảng----------- */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* notifi */
+.notifi h1{
+    font-size: 17px;
+}
+
+.notifi-item{
+    border: 2px solid #6c7ee1;
+}
+
+.info-notifi{
+    border-top: 2px solid #6c7ee1;
+}
+
+.info-notifi p{
+    font-size: 15px;
+}
+
+/* news */
+.header-new h1{
+    width: 90%;
+    font-size: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.content-new{
+    border-top: 2px solid #6c7ee1;
+}
+
+.content-new h1{
+    font-size: 18px;
+}
+
+.content-new h4{
+    font-size: 15px;
+}
+
+.content-new p{
+    font-size: 13px;
+}  
+}
+
+/* -----------máy tính để bàn-------------
+@media (min-width: 992px) and (max-width: 1150px) {
+  
+} */

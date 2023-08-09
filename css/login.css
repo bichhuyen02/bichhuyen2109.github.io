@@ -1,0 +1,95 @@
+body{
+    background-color: #ffc4a4;
+}
+
+.login{
+    background: linear-gradient(#c688eb,#6c7de1);
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 30px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    box-shadow: 0 0 5px #593e67;
+}
+
+.login h1{
+    color: aliceblue;
+    text-shadow: 4px 3px 2px #fba2d0;
+    font-family: myRegular;
+}
+
+.sect select{
+    font-size: 17px;
+    min-width: 100px;
+    
+    border-radius: 10px;
+}
+
+.form-user input,
+.form-pass input{
+    font-size: 17px;
+    width: 35%;
+    border-radius: 10px;
+}
+
+.btn{
+    margin: 3%;
+}
+
+.btn input{
+    font-size: 20px;
+    background-color: #ffc4a4;
+    border-radius: 10px;
+}
+
+/* reponsive */
+
+/* -------điện thoại di động ở chế độ dọc----- */
+@media (max-width: 575px) {
+
+    .login{ 
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    .sect select{
+        font-size: 13px;
+    }
+    
+    .form-user input,
+    .form-pass input{
+        font-size: 13px;
+        width: 50%;
+    }
+    
+    .btn input{
+        font-size: 13px;
+    }
+}
+
+/* ------------điện thoại di động ở chế độ ngang-------- */
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .login{ 
+        width: 70%;
+        font-size: 20px;
+    }
+    
+    .sect select{
+        font-size: 13px;
+    }
+    
+    .form-user input,
+    .form-pass input{
+        font-size: 13px;
+        width: 50%;
+    }
+    
+    .btn input{
+        font-size: 13px;
+    }
+}

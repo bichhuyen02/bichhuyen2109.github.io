@@ -1,0 +1,535 @@
+.red i {
+    color: #ff0505;
+}
+
+.yellow i {
+    color: #f4df01;
+}
+
+/* đề tài nổi bật */
+.tocpic-outstanding {
+    margin-top: 8%;
+    width: 100%;
+}
+
+.topics {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.topic {
+    height: 100%;
+    box-shadow: 10px 5px 10px #454545;
+    width: 45%;
+    margin-bottom: 1%;
+    border-radius: 15px;
+}
+
+.image-topic {
+    width: 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image-topic img {
+    width: 100%;
+    border-radius: 15px;
+    height: 100%;
+}
+
+.info-topic {
+    width: 50%;
+}
+
+.info-topic div {
+    padding-left: 2%;
+}
+
+.info-topic h1 {
+    margin-bottom: auto;
+    border-bottom: 2px solid #f0ecec;
+    padding-left: 4%;
+    color: #5d5d5e;
+    font-size: 20px;
+    margin-top: 1%;
+}
+
+.name-topic h1 {
+    color: #454545 !important;
+    font-size: 20px !important;
+}
+
+.info-topic p {
+    padding: 0%;
+    margin: 1%;
+    color: #919194;
+    font-size: 13px;
+    margin-top: 2%;
+}
+
+.info-topic h5 {
+    padding-left: 4%;
+    color: #5d5d5e;
+    font-size: 15px;
+    margin: 2%;
+}
+
+.rating_5 {
+    font-size: 20px;
+    margin: auto;
+}
+
+.rating_5 i {
+    display: block;
+    padding: 3px;
+}
+
+.rating_5 i:first-child {
+    color: rgba(246, 230, 10, 0.751);
+}
+
+.rating_5 i:nth-child(2) {
+    color: rgba(246, 230, 10, 0.751);
+}
+
+.rating_5 i:nth-child(3) {
+    color: rgba(237, 222, 11, 0.823);
+}
+
+.rating_5 i:nth-child(4) {
+    color: rgb(237, 222, 11);
+}
+
+.rating_5 i:nth-child(5) {
+    color: rgba(220, 207, 21, 0.905);
+}
+
+/* Giảng viên yêu thích */
+.lecturer-favorite {
+    margin-top: 8%;
+}
+
+h1.text-info {
+    text-shadow: 2px 2px 5px blue;
+    color: whitesmoke;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+h3.text-info {
+    color: whitesmoke;
+    text-shadow: 2px 2px 5px rgb(93, 0, 255);
+    font-size: 25px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
+.lecturers {
+    flex-wrap: wrap;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.lecturer {
+    position: relative;
+    overflow: hidden;
+    width: 20%;
+    margin-left: 4%;
+}
+
+.lecturer:hover .info-lecturer {
+    top: 0;
+    opacity: 1;
+}
+
+.image-lecturer img {
+    width: 100%;
+    border-radius: 20px;
+    height: 300px;
+}
+
+.info-lecturer {
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    opacity: 0;
+    transition: all .7s;
+    background-color: #6c7de17a;
+    width: 100%;
+    height: 99%;
+    border-radius: 20px;
+}
+
+.info-lecturer a {
+    background-color: #c688eb;
+    color: white;
+    font-size: 20px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 7%;
+}
+
+.info-lecturer a:hover {
+    background-color: #0178ffd2;
+}
+
+/* prize */
+.prizes {
+    margin: 7%;
+    margin-top: 8%;
+}
+
+.prize {
+    margin-top: 3%;
+}
+
+.image-prize {
+    width: 30%;
+}
+
+.image-prize img {
+    width: 100%;
+}
+
+.info-prize {
+    width: 70%;
+    font-size: 20px;
+}
+
+.info-prize h2 {
+    margin: 0px;
+    margin-left: 2%;
+}
+
+.content {
+    font-size: 20px;
+    border-top: 3px solid #6c7ee1;
+}
+
+.content p:first-child {
+    padding-left: 6%;
+    margin: 6px;
+    margin-top: 20px;
+}
+
+.content p:nth-child(2),
+.content p:nth-child(3),
+.content p:nth-child(4),
+.content p:last-child {
+    margin: 2%;
+    margin-left: 10% !important;
+}
+
+/* reponsive */
+
+/* -------điện thoại di động ở chế độ dọc----- */
+@media (max-width: 575px) {
+
+    /* đề tài nổi bật */
+    .topics {
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .topic {
+        margin: 2%;
+        width: 100%;
+    }
+
+    .image-topic img {
+        border-radius: 4px;
+    }
+
+    .info-topic h1 {
+        font-size: 6px;
+    }
+
+    .name-topic h1 {
+        font-size: 7px !important;
+    }
+
+    .info-topic p {
+        font-size: 4px;
+    }
+
+    .info-topic h5 {
+        font-size: 5px;
+    }
+
+    .rating_5 {
+        font-size: 9px;
+    }
+
+    .rating_5 i {
+        padding: 1px;
+    }
+
+    /* Giảng viên yêu thích */
+.lecturers{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.lecturer{
+    width: 40%;
+}
+
+.image-lecturer img{
+    height: 150px;
+}
+
+    h1.text-info {
+        font-size: 15px;
+    }
+
+    h3.text-info {
+        font-size: 10px;
+    }
+
+    .image-lecturer img {
+        border-radius: 3px;
+    }
+
+    .info-lecturer {
+        border-radius: 3px;
+    }
+
+    .info-lecturer input {
+        font-size: 8px;
+    }
+
+    /* prize */
+    .info-prize {
+        font-size: 7px;
+    }
+
+    .content {
+        font-size: 7px;
+        border-top: 1px solid #6c7ee1;
+    }
+
+    .content p:first-child {
+        margin-top: 7px;
+    }
+}
+
+/* ------------điện thoại di động ở chế độ ngang-------- */
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* đề tài nổi bật */
+    .image-topic img {
+        border-radius: 7px;
+    }
+
+    .info-topic h1 {
+        font-size: 7px;
+    }
+
+    .name-topic h1 {
+        font-size: 7px !important;
+    }
+
+    .info-topic p {
+        font-size: 4px;
+    }
+
+    .info-topic h5 {
+        font-size: 7px;
+    }
+
+    .rating_5 {
+        font-size: 7px;
+    }
+
+    .rating_5 i {
+        padding: 2px;
+    }
+
+    /* Giảng viên yêu thích */
+    .lecturers{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .lecturer{
+        width: 45%;
+    }
+    
+    .image-lecturer img{
+        height: 200px;
+    }
+
+    h1.text-info {
+        font-size: 20px;
+    }
+
+    h3.text-info {
+        font-size: 19px;
+    }
+
+    .image-lecturer img {
+        border-radius: 9px;
+    }
+
+    .info-lecturer {
+        border-radius: 9px;
+    }
+
+    .info-lecturer input {
+        font-size: 10px;
+    }
+
+    /* prize */
+    .info-prize {
+        font-size: 10px;
+    }
+
+    .content {
+        font-size: 10px;
+    }
+
+    .content p:first-child {
+        margin-top: 9px;
+    }
+}
+
+/* ------------máy tính bảng----------- */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* đề tài nổi bật */
+    .image-topic img {
+        border-radius: 10px;
+    }
+
+    .info-topic h1 {
+        font-size: 10px;
+    }
+
+    .name-topic h1 {
+        font-size: 10px !important;
+    }
+
+    .info-topic p {
+        font-size: 5px;
+    }
+
+    .info-topic h5 {
+        font-size: 9px;
+    }
+
+    .rating_5 {
+        font-size: 10px;
+    }
+
+    .rating_5 i {
+        padding: 3px;
+    }
+
+    /* Giảng viên yêu thích */
+.image-lecturer img{
+    height: 200px;
+}
+
+    h1.text-info {
+        font-size: 24px;
+    }
+
+    h3.text-info {
+        font-size: 16px;
+    }
+
+    .image-lecturer img {
+        border-radius: 15px;
+    }
+
+    .info-lecturer {
+        border-radius: 15px;
+    }
+
+    .info-lecturer input {
+        font-size: 13px;
+    }
+
+    /* prize */
+    .info-prize {
+        font-size: 15px;
+    }
+
+    .content {
+        font-size: 15px;
+    }
+}
+
+/* -----------máy tính để bàn------------- */
+@media (min-width: 992px) and (max-width: 1150px) {
+
+    /* đề tài nổi bật */
+.image-lecturer img{
+    height: 250px;
+}
+
+    .image-topic img {
+        border-radius: 10px;
+    }
+
+    .info-topic h1 {
+        font-size: 13px;
+    }
+
+    .name-topic h1 {
+        font-size: 13px !important;
+    }
+
+    .info-topic p {
+        font-size: 7px;
+    }
+
+    .info-topic h5 {
+        font-size: 12px;
+    }
+
+    .rating_5 {
+        font-size: 14px;
+    }
+
+    .rating_5 i {
+        padding: 3px;
+    }
+
+    /* Giảng viên yêu thích */
+    h1.text-info {
+        font-size: 27px;
+    }
+
+    h3.text-info {
+        font-size: 17px;
+    }
+
+    .image-lecturer img {
+        border-radius: 15px;
+    }
+
+    .info-lecturer {
+        border-radius: 15px;
+    }
+
+    .info-lecturer input {
+        font-size: 15px;
+    }
+
+    /* prize */
+    .info-prize {
+        font-size: 20px;
+    }
+
+    .content {
+        font-size: 20px;
+    }
+}

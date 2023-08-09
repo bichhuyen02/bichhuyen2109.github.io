@@ -1,0 +1,122 @@
+.footer {
+  width: 100%;
+  padding: 0px;
+  background-color: #6c7de1;
+  letter-spacing: 1px;
+  font-size: 19px;
+  color: whitesmoke;
+  /* text-align: center; */
+}
+
+.footer h1 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.info {
+  padding: 15px 20px;
+}
+
+.info-footer {
+  padding-left: 3%;
+}
+
+.social {
+  border-top: 1px solid whitesmoke;
+  text-align: center;
+}
+
+.social div {
+  padding-top: 5px;
+}
+
+.location {
+  padding: 15px 20px;
+}
+
+.info-location ul {
+  list-style-type: none;
+  padding-left: 3%;
+}
+
+.footer-item {
+  border-top: 2px solid whitesmoke;
+  text-align: center;
+}
+
+.footer-item p {
+  margin: 0px;
+  padding: 10px;
+}
+
+/* reponsive */
+
+/* -------điện thoại di động ở chế độ dọc----- */
+@media (max-width: 575px){
+  .justify{
+    justify-content: center !important;
+  }
+  
+  .hide{
+    display: none;
+  }
+
+  .footer{
+    font-size: 5px;
+  }
+
+  .footer h1 {
+    font-size: 6px;
+  }
+}
+
+/* ------------điện thoại di động ở chế độ ngang-------- */
+@media (min-width: 576px) and (max-width: 767px) {
+  .justify{
+    justify-content: center !important;
+  }
+
+  .hide{
+    display: none;
+  }
+
+  .footer{
+    font-size: 13px;
+  }
+
+  .footer h1 {
+    text-align: center;
+    font-size: 17px;
+  }
+}
+
+  /* ------------máy tính bảng----------- */
+@media (min-width: 768px) and (max-width: 991px) {
+  .justify{
+    justify-content: center !important;
+  }
+
+  .hide{
+    display: none;
+  }
+  .footer{
+    font-size: 13px;
+  }
+
+  .footer h1 {
+    text-align: center;
+    font-size: 15px;
+  }
+}
+
+  /* -----------máy tính để bàn------------- */
+@media (min-width: 992px) and (max-width: 1150px) {
+  .footer{
+    font-size: 14px;
+  }
+
+  .footer h1 {
+    text-align: center;
+    font-size: 17px;
+  }
+}

@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "name": "Hệ Thống Tư Vấn Chi Tiêu Hợp Lý Và Tiết Kiệm",
+        "lecturer": "Dương Hữu Thành",
+        "majors": "Công Nghệ Thông Tin",
+        "img": "/image/ten.jpg",
+        "leader": "Nguyễn Hoài Thu - 2251050014",
+        "member": "Nguyễn Ngọc Anh - 2254789743"
+    },
+    {
+        "id": 2,
+        "name": "Bài Toán Trả Lời Tự Động bài Thi Đọc Hiểu Tiếng Anh",
+        "lecturer": "Dương Hữu Thành",
+        "majors": "Công Nghệ Thông Tin",
+        "img": "/image/ten.jpg",
+        "leader": "Nguyễn Anh Tuấn - 1951050478",
+        "member": "Trần Hoài Ngọc - 1951050189"
+    },
+    {
+        "id": 3,
+        "name": "Khảo Sát Quá Trình Trích Ly Cao Lá Ổi Bằng Vi Sóng",
+        "lecturer": "Lý Thị Minh Hiền",
+        "majors": "Công Nghệ Sinh Học",
+        "img": "/image/detaiCNSH.jpg",
+        "leader": "Nguyễn Văn An - 2051050111",
+        "member": "Phạm Anh Hoàng - 2051050289"
+    },
+    {
+        "id": 4,
+        "name": "Dự Đoán Thành Tích Học Của Sinh Viên Sử Dụng RANDOM FOREST",
+        "lecturer": "Nguyễn Thị Phương Trang",
+        "majors": "Công Nghệ Thông Tin",
+        "img": "/image/ten.jpg",
+        "leader": "Trần Yến Vũ - 2151050789",
+        "member": "Lý Thế Anh - 2150468967"
+    },
+    {
+        "id": 5,
+        "name": "Trải Nghiệm Khách Hàng Qua Ứng Dụng Thự Tế Tăng Cường Trong Bán Lẻ",
+        "lecturer": "Lê Thị Huệ Linh",
+        "majors": "Quản Trị Kinh Doanh",
+        "img": "/image/DetaiQTKD.jpg",
+        "leader": "Trần Quang Vũ - 2051050741",
+        "member": "Nguyễn Văn Từ - 2054786953"
+    },
+    {
+        "id": 6,
+        "name": "Áp Lực Xã Hội Sau Ly Hôn Của Người Trẻ Từ 18-35 Tuổi",
+        "lecturer": "Đỗ Hồng Quân",
+        "majors": "XHH-CTXH-ĐNA",
+        "img": "/image/ctxh.jpg",
+        "leader": "Trần Tuấn Đạt - 2151050235",
+        "member": "Hoàng Đức Minh - 2151050247"
+    },
+    {
+        "id": 7,
+        "name": "Khảo Sát Một Số Đặc Tính Sinh Học Của Cao Chiết Nắm Phục Linh",
+        "lecturer": "Nguyễn Thị Lệ Thủy",
+        "majors": "Công Nghệ Sinh Học",
+        "img": "/image/detaiCNSH.jpg",
+        "leader": "Nguyễn Dịu Huyền - 2051050118",
+        "member": "Phạm Thị Trinh - 2051050235"
+    },
+    {
+        "id": 8,
+        "name": "Đánh Giá BRASSINOLIDE Khả năng Chịu Mặn Của Cây Dược Liệu Bụp Giấm",
+        "lecturer": "Tạ Đăng Khoa",
+        "majors": "Công Nghệ Sinh Học",
+        "img": "/image/detaiCNSH.jpg",
+        "leader": "Phan Đăng Khoa - 2051050958",
+        "member": "Hà Bảo Lộc - 2051050345"
+    },
+    {
+        "id": 9,
+        "name": "Hành Vi Tìm Kiếm Thông Tin Của Thế Hệ Z Trên TIKTOK",
+        "lecturer": "Vũ Thanh Hiếu",
+        "majors": "Quản Trị Kinh Doanh",
+        "img": "/image/DetaiQTKD.jpg",
+        "leader": "Đỗ Thị Hoa Huệ - 2051050012",
+        "member": "Nguyễn Văn Thiên - 2054786847"
+    },
+    {
+        "id": 10,
+        "name": "Phân Tích Yếu Tố Quyết Định Sự Thành Công Của Sinh Viên Đại Học Khi Khởi Nghiệp",
+        "lecturer": "Trần Tuấn Anh",
+        "majors": "Quản Trị Kinh Doanh",
+        "img": "/image/DetaiQTKD.jpg",
+        "leader": "Trần Quang Mạnh - 2051050412",
+        "member": "Trần Thị Chi - 2054786333"
+    },
+    {
+        "id": 11,
+        "name": "Biểu Diễn Hát Lô Tô Trong Xu Thế Du Lịch Tại Thành Phố Hồ Chí Minh",
+        "lecturer": "Nguyễn Xuân Nghĩa",
+        "majors": "XHH-CTXH-ĐNA",
+        "img": "/image/ctxh.jpg",
+        "leader": "Trần Đăng Quang - 2151053258",
+        "member": "Nguyễn Anh Hoàng - 2151059745"
+    },
+    {
+        "id": 12,
+        "name": "Làng Nghề Bánh Tráng Ở Phú Yên: Truyền Thống Và Biến Đổi",
+        "lecturer": "Nguyễn Khánh Trung",
+        "majors": "XHH-CTXH-ĐNA",
+        "img": "/image/ctxh.jpg",
+        "leader": "Hoàng Kim Đạt - 2151041523",
+        "member": "Nguyễn Hoàng Phi Lai - 2151096584"
+    }
+]
