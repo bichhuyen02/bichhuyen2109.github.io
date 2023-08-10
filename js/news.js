@@ -35,13 +35,18 @@ window.onload = function () {
     headerNews.forEach(header => {
         header.addEventListener('click', () => {
             header.classList.toggle('active');
-            // var headerNews = header.nextElementSibling;
-            // if (headerNews.style.display === 'block') {
-            //     headerNews.style.display = 'none';
-            // } else {
-            //     headerNews.style.display = 'block';
-            // }
         });
+    });
+
+    let m = document.getElementById("menu-items");
+    let d = document.getElementById("show-menu");
+    d.addEventListener("click", function() {
+        m.style.left = "65%";
+    });
+
+    let e = document.getElementById("esc");
+    e.addEventListener("click", function() {
+        m.style.left = "-100%";
     });
 
     headerClick();

@@ -37,7 +37,10 @@
     <nav>
         <div class=" menu flex header">
             <div class="image-header wow animate__slideInLeft animate__slow"> <img src="/image/logo.png" alt="OU"></div>
-            <div class="menu-items wow animate__slideInRight animate__slow">
+            <div class="btn-menu">
+                <button id="show-menu"><i class="fa-solid fa-list"></i></button>
+            </div>
+            <div class="menu-items wow animate__slideInRight animate__slow"  id="menu-items">
                 <ul class="menu-item flex text-decoration">
                     <li>
                         <a href="#" >Trang chủ</a>
@@ -56,6 +59,9 @@
                     </li>
                     <li class="user" > 
                         <a href="login.html"><i class="fa-solid fa-user"></a></i>
+                    </li>
+                    <li class="esc" id="esc">
+                        <a href="#">Thoát menu</a>
                     </li>
                 </ul>
             </div>
@@ -158,7 +164,7 @@
                         <h1 class="text-info">ThS.Dương Hữu Thành</h1>
                         <h3 class="text-info">Thạc Sĩ</h3>
                         <h3 class="text-info">Khoa công nghệ thông tin</h3>
-                        <a href="/html/lecturers.html">Chi tiết</a>
+                        <a href="lecturers.html">Chi tiết</a>
                     </div>
                </div>
             </div>
