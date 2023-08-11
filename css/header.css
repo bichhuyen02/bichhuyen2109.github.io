@@ -52,23 +52,19 @@ nav {
 .menu-item {
   list-style-type: none;
   padding: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
 
 .menu-item>li {
-  font-size: 20px;
+  font-size: 22px;
   text-align: center;
-  margin-left: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 .menu-items li a {
   display: block;
-  padding: 5px 20px;
   border: 1px solid transparent;
   border-radius: 30px;
-  padding-left: 15px;
-  padding-right: 15px;
   color: whitesmoke;
 }
 
