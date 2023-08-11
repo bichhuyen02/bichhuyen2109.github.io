@@ -255,8 +255,8 @@ window.onload = function(){
     loadLecturerTCNH();
     loadLecturerXHH();
 
-    headerClick();
-    headerOnload();
+    // headerClick();
+    // headerOnload();
 
     let m = document.getElementById("menu-items");
     let d = document.getElementById("show-menu");

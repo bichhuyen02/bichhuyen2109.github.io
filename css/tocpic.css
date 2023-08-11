@@ -102,7 +102,7 @@ hr{
 @media (min-width: 576px) and (max-width: 767px) {
 
     .title-main>span {
-        font-size: 16.5px;
+        font-size: 14px;
     }
 
     .topic {

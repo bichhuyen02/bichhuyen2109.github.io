@@ -1,0 +1,256 @@
+/* road */
+.road{
+    font-size: 39px;
+    color: #6c7de1;
+}
+
+.road i{
+    color: rgb(255, 166, 0);
+}
+
+/* Giới thiệu OU */
+.info-ou{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+
+.video-ou{
+    width: 40%;
+}
+
+.video-ou iframe{
+    width: 100%;
+}
+
+.video-ou img{
+    width: 100%;
+}
+
+.content-ou{
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 60%;
+    font-size: 20px;
+}
+
+.content-ou p{
+    margin-top: 0px;
+}
+
+.content-ou p:nth-child(6),
+.content-ou p:nth-child(7),
+.content-ou p:nth-child(8){
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+/* Giới thiệu Phòng */
+.info-qlkh{
+    margin: 3%;
+}
+
+.title-ou{
+    font-size: 25px;
+    text-align: center;
+    color: #6c7de1;
+}
+
+.content-qlkh{
+    width: 60%;
+    font-size: 20px;
+    margin-right: 2%;
+}
+
+.content-qlkh p{
+    margin-top: 0px;
+}
+
+.img-qlkh{
+    width: 40%;
+}
+
+.img-qlkh img{
+    width: 100%;
+}
+
+/* chức năng nv */
+.mission{
+    margin: 3%;
+}
+
+.content-mission{
+    font-size: 20px;
+}
+
+.content-mission h5{
+    margin: 1%;
+    margin-left: 4%;
+    font-size: 23px;
+}
+
+.content-mission p{
+    margin-left: 6%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+/* reponsive */
+
+/* -------điện thoại di động ở chế độ dọc----- */
+@media (max-width: 575px) {
+
+/* road */
+.road{
+    font-size: 9px;
+}
+
+/* Giới thiệu OU */
+.info-ou>div{
+    flex-direction: column;
+}
+
+.video-ou{
+    width: 100%;
+}
+
+.video-ou img{
+    display: none;
+}
+
+.content-ou{
+    width: 100%;
+    font-size: 6px !important;
+}
+
+.content-ou p{
+    margin-left: 0px !important;
+}
+
+/* Giới thiệu Phòng */
+.title-ou{
+    font-size: 7px;
+}
+
+.content-qlkh{
+    font-size: 6px;
+}
+
+/* chức năng nv */
+.content-mission{
+    font-size: 6px;
+}
+
+.content-mission h5{
+    font-size: 8px;
+}
+  }
+  
+  /* ------------điện thoại di động ở chế độ ngang-------- */
+  @media (min-width: 576px) and (max-width: 767px) {
+  
+/* road */
+.road{
+    font-size: 15px;
+}
+
+/* Giới thiệu OU */
+
+.video-ou{
+    width: 50%;
+}
+
+.content-ou{
+    font-size: 10px !important;
+}
+
+/* Giới thiệu Phòng */
+
+.title-ou{
+    font-size: 12px;
+}
+
+.content-qlkh{
+    font-size: 10px;
+}
+
+/* chức năng nv */
+.content-mission{
+    font-size: 10px;
+}
+
+.content-mission h5{
+    font-size: 11px;
+}
+  }
+  
+  /* ------------máy tính bảng----------- */
+  @media (min-width: 768px) and (max-width: 991px) {
+   /* road */
+.road{
+    font-size: 20px;
+}
+
+/* Giới thiệu OU */
+
+.video-ou{
+    width: 50%;
+}
+
+.content-ou{
+    font-size: 12.5px !important;
+}
+
+/* Giới thiệu Phòng */
+
+.title-ou{
+    font-size: 15px;
+}
+
+.content-qlkh{
+    font-size: 12.5px;
+}
+
+/* chức năng nv */
+.content-mission{
+    font-size: 13px;
+}
+
+.content-mission h5{
+    font-size: 14px;
+}
+  }
+  
+  /* -----------máy tính để bàn------------- */
+  @media (min-width: 992px) and (max-width: 1200px) {
+    /* road */
+.road{
+    font-size: 25.8px;
+}
+
+/* Giới thiệu OU */
+
+.content-ou{
+    font-size: 15px !important;
+}
+
+/* Giới thiệu Phòng */
+
+.title-ou{
+    font-size: 20px;
+}
+
+.content-qlkh{
+    font-size: 18px;
+}
+
+/* chức năng nv */
+.content-mission{
+    font-size: 15px;
+}
+
+.content-mission h5{
+    font-size: 17px;
+}
+  }

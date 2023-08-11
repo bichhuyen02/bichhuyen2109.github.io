@@ -49,8 +49,8 @@ window.onload = function () {
         m.style.left = "-100%";
     });
 
-    headerClick();
-    headerOnload();
+    // headerClick();
+    // headerOnload();
 }
 
 
