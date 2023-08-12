@@ -1,10 +1,9 @@
-function loadTopic(){
-    fetch("/data/topic.json").then(res => res.json()).then(data =>{
+function loadTopic() {
+    fetch("/data/topic.json").then(res => res.json()).then(data => {
         let h = "";
         let flag = 0;
-        for(let t of data){
-            if(flag < 4)
-            {
+        for (let t of data) {
+            if (flag < 4) {
                 h += `
                 <div class="flex topic wow animate__fadeInRight animate__slow">
                     <div class="flex ">
@@ -37,17 +36,17 @@ function loadTopic(){
             }
         }
         let e = document.getElementById("tocpics");
-        if(e !== null)
+        if (e !== null)
             e.innerHTML = h;
     })
 }
 
-function loadLecturer(){
+function loadLecturer() {
     fetch("/data/lecturer.json").then(res => res.json()).then(data => {
         let h = "";
         let index = 0;
-        for(let l of data){
-            if(index < 4){
+        for (let l of data) {
+            if (index < 4) {
                 h += `
                 <div class="lecturer wow  animate__fadeInRight animate__slow">
                 <div>
@@ -65,62 +64,29 @@ function loadLecturer(){
                 `;
                 index++;
             }
-            
+
         }
 
         let e = document.getElementById("lecturers");
-        if(e !== null){
+        if (e !== null) {
             e.innerHTML = h
         }
     })
 }
 
-function headerOnload(){
-    let loca = window.location.href;
-  
-    let item = document.querySelector(".menu-item>li:first-child");
-   
-    let link = item.querySelector("a");
-    // Kiểm tra nếu đường dẫn của menu trùng với đường dẫn hiện tại
-    if (link.href == loca) {
-      // Thêm lớp 'active' vào phần tử menu tương ứng
-      item.classList.add("action");
-    }
-}
-  
-function headerClick(){
-    let location = window.location.href;
-  
-    // Lặp qua các phần tử menu để kiểm tra đường dẫn
-    let menu = document.querySelectorAll(".menu-item li");
-    for(let itemMenu of menu){
-      itemMenu.onclick = function(){
-        let link = itemMenu.querySelector("a");
-  
-        // Kiểm tra nếu đường dẫn của menu trùng với đường dẫn hiện tại
-        if (link.href == location) {
-          // Thêm lớp 'active' vào phần tử menu tương ứng
-          itemMenu.classList.add("action");
-        }
-      }
-    }
-}
-
-
-window.onload = function (){
+window.onload = function () {
     loadTopic();
     loadLecturer();
-    // headerClick();
-    // headerOnload();
 
+    // reponsive menu
     let m = document.getElementById("menu-items");
     let d = document.getElementById("show-menu");
-    d.addEventListener("click", function() {
+    d.addEventListener("click", function () {
         m.style.left = "65%";
     });
 
     let e = document.getElementById("esc");
-    e.addEventListener("click", function() {
+    e.addEventListener("click", function () {
         m.style.left = "-100%";
     });
 }

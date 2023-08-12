@@ -57,28 +57,23 @@ nav {
 .menu-item>li {
   font-size: 22px;
   text-align: center;
-  padding-left: 3%;
-  padding-right: 3%;
-}
-
-.menu-items li a {
-  display: block;
+  padding: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   border: 1px solid transparent;
   border-radius: 30px;
-  color: whitesmoke;
 }
 
-.menu-items li a:hover {
+.menu-item li a {
+  color: white;
+}
+
+.menu-item li:hover {
   background-color: #92b9e3;
 }
 
 .action {
-  border-radius: 30px;
-  background-color: #ffc4a49e;
-}
-
-.action:nth-child(5) {
-  background-color: transparent;
+  background-color: #ffc4a49e !important;
 }
 
 /* user */
@@ -184,6 +179,7 @@ nav {
 
   .menu-item li {
     font-size: 10px;
+    margin-bottom: 5%;
   }
 
   .menu-item li a {
@@ -245,19 +241,14 @@ nav {
 
   .menu-items {
     width: 100%;
-    position: relative;
   }
 
   .menu-item>li {
-    font-size: 8px;
-  }
-
-  .menu-items li a {
-    border-radius: 19px;
+    font-size: 13.5px;
   }
 
   .action {
-    border-radius: 19px;
+    border-radius: 15px;
   }
 
   /* user */
@@ -294,19 +285,14 @@ nav {
 
   .menu-items {
     width: 100%;
-    position: relative;
   }
 
   .menu-item>li {
-    font-size: 13px;
-  }
-
-  .menu-items li a {
-    border-radius: 18px;
+    font-size: 18px;
   }
 
   .action {
-    border-radius: 18px;
+    border-radius: 13px;
   }
 
   /* user */
@@ -338,15 +324,11 @@ nav {
 
   /* menu */
   .menu-item>li {
-    font-size: 12px;
-  }
-
-  .menu-items li a {
-    border-radius: 19px;
+    font-size: 14px;
   }
 
   .action {
-    border-radius: 19px;
+    border-radius: 15px;
   }
 
   /* user */
