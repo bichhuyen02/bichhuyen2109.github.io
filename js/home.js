@@ -57,7 +57,7 @@ function loadLecturer() {
                             <h1 class="text-info">${l.name}</h1>
                             <h3 class="text-info">${l.degree}</h3>
                             <h3 class="text-info">${l.majors}</h3>
-                            <a href="/html/lecturers.html">Chi tiết</a>
+                            <a href="lecturers.html">Chi tiết</a>
                         </div>
                 </div>
                 </div>
