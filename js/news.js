@@ -20,15 +20,6 @@ window.onload = function () {
   e.addEventListener("click", function () {
     m.style.left = "-100%";
   });
-
-  // let menuItems = document.querySelectorAll('.menu-item>li>a');
-  //   menuItems.forEach(function (link) {
-  //       if (link.href === window.location.href) {
-  //           link.classList.add('action');
-  //       } else {
-  //           link.classList.remove('action');
-  //       }
-  //   });
 }
 
 

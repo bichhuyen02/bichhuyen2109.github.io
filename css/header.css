@@ -91,10 +91,15 @@ nav {
 .image {
   background: linear-gradient(#6c7de1, whitesmoke);
   width: 100%;
+  position: relative;
 }
 
 .img {
   align-items: center;
+}
+
+.content-image>div{
+  position: absolute;
 }
 
 .text-image {
@@ -120,6 +125,40 @@ nav {
 .image-item img {
   width: 100%;
 }
+
+.show{
+  color: white !important;
+}
+
+/* btn */
+.btn i{
+  position: absolute;
+  color: rgba(0, 0, 0, 0.059);
+   font-size: 45px;
+ }
+ 
+ .btn a:first-child i{
+   top: 30%;
+   left: 3%;
+  }
+ 
+  .btn a:last-child i{
+   top: 30%;
+   right: 3%;
+  }
+ 
+  /* number */
+ .btn-number{
+   position: absolute;
+   top: 90%;
+   left: 50%;
+ }
+ 
+ .btn-number a{
+   font-size: 20px;
+   text-decoration: none;
+   color: rgba(0, 0, 0, 0.308);
+ }
 
 /* btn-menu */
 .btn-menu {
