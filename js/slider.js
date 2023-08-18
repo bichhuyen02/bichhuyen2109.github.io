@@ -8,7 +8,7 @@ $(document).ready(function(){
             <a href="javascript:;" class="digit">${i+2}</a>
         `;
     $(".btn-number>a").after(h);
-    $(".image").height($(".image img").height() + 3);
+    $(".image").height($(".image img").height() + 1);
 
     // chạy sidle
     let current = -1;
