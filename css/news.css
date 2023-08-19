@@ -82,9 +82,20 @@ main{
 /* -------điện thoại di động ở chế độ dọc----- */
 @media (max-width: 575px) {
 
+    main{
+        margin-left: 10%;
+        margin-right: 10%;
+        flex-direction: column;
+    }
  /* notifi */
+.notifi{
+    width: 100%;
+    margin-bottom: 2%;
+}
+
 .notifi h1{
-    font-size: 7px;
+    font-size: 10px;
+    margin-bottom: -2%;
 }
 
 .notifi-item{
@@ -96,13 +107,17 @@ main{
 }
 
 .info-notifi p{
-    font-size: 5px;
+    font-size: 9px;
 }
 
 /* news */
+.news{
+    width: 100%;
+}
+
 .header-new h1{
-    width: 90%;
-    font-size: 9px;
+    width: 60%;
+    font-size: 10px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
@@ -112,15 +127,15 @@ main{
 }
 
 .content-new h1{
-    font-size: 7px;
+    font-size: 9px;
 }
 
 .content-new h4{
-    font-size: 6px;
+    font-size: 8px;
 }
 
 .content-new p{
-    font-size: 5px;
+    font-size: 7px;
 }
 }
 
