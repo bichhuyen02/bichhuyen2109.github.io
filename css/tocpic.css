@@ -66,9 +66,10 @@ hr{
 @media (max-width: 575px) {
 
     .title-main {
+        font-size: 15px;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
-        width: 65%;
+        width: 45%;
     }
 
     .title-main>span {
