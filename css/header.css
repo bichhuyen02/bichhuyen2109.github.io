@@ -104,14 +104,13 @@ nav {
 }
 
 .text-image {
-  width: 60%;
+  width: 50%;
   color: #593e67;
-  font-size: 19px;
+  font-size: 17.5px;
   font-family: myRegular;
 }
 
 .text-image h1 {
-  padding-left: 3%;
   padding-right: 0px;
 }
 
@@ -227,9 +226,9 @@ nav {
   }
 
   /* .header-image */
-  .text-image {
-    font-size: 5px;
-  }
+ .image{
+  display: none;
+ }
 
   /* btn-menu */
   .btn-menu {
@@ -272,7 +271,7 @@ nav {
 }
 
 /* ------------điện thoại di động ở chế độ ngang-------- */
-@media (min-width: 576px) and (max-width: 767px) {
+@media (min-width: 575px) and (max-width: 767px) {
 
   /* menu */
   .image-header {
@@ -297,9 +296,9 @@ nav {
   }
 
   /* .header-image */
-  .text-image {
-    font-size: 11px;
-  }
+  .image{
+  display: none;
+ }
 
   /* tiêu đề */
   .title {
@@ -341,9 +340,9 @@ nav {
   }
 
   /* .header-image */
-  .text-image {
-    font-size: 14px;
-  }
+  .image{
+    display: none;
+   }
 
   /* tiêu đề */
   .title {
@@ -360,7 +359,7 @@ nav {
 }
 
 /* -----------máy tính để bàn------------- */
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1449px) {
 
   /* menu */
   .menu-item>li {
@@ -396,6 +395,6 @@ nav {
 
   /* .header-image */
   .text-image {
-    font-size: 15px;
+    font-size: 12.2px;
   }
 }

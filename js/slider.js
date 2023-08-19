@@ -14,8 +14,8 @@ $(document).ready(function(){
     let current = -1;
 
     let showSlider = (current) => {
-        $(".content-image > div").animate({left: "-200%"});
-        $(".content-image > div").eq(current).animate({left: 0 }, "slow");
+        $(".content-image > div").animate({left: "-100%"}, "slow");
+        $(".content-image > div").eq(current).animate({left: "7%" }, "slow");
 
         $("a.digit").removeClass("show");
         $("a.digit").eq(current).addClass("show");
